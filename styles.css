@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(3, 3, 3);
+  color: white;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+p, ul {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding-top: 25px;
+}
+
+ul {
+  list-style: disc outside none;
+  line-height: 1.2em;
+  margin-left: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: rgb(32, 43, 176);
+}
+
+a:hover {
+  /* font-style: italic; */
+  font-weight: 600;
+}
+
+.ital {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.banner {
+  width: 100%;
+  /* height: 100vh; */
+  /* object-fit: contain; */
+}
+
+marquee {
+  background-color: rgb(32, 43, 176);
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+marquee > span {
+  padding: 20px;
+}
+
+.ticker {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.section {
+  margin: 100px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.blue {
+  background-color: rgb(32, 43, 176);
+}
+
+.yellow {
+  background-color: rgb(247, 224, 51);
+  color: rgb(3, 3, 3);
+}
+
+.yellow a:hover {
+  color: rgb(32, 43, 176);
+}
+
+.blue a {
+  color: rgb(247, 224, 51);
+}
+
+.white {
+  background-color: white;
+  color: rgb(3, 3, 3);
+}
+
+.fa {
+  font-size: 3em;
+  margin-left: 1em;
+}
+
+.tweet-button {
+  float: right;
+}
+
+.tweet-button>a {
+  color: unset;
+}
+
+.tweet-button>a:hover {
+  color: unset;
+}
+
+@media screen and (max-width: 767px) {
+
+  .section {
+    margin: 30px;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  p, ul {
+    font-size: 0.8em;
+  }
+  ul {
+    list-style: disc outside none;
+    line-height: 1.2em;
+    margin-left: 1em;
+  }
+  li {
+    margin-bottom: .5em;
+  }
+  .fa {
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .section {
+    max-width: 60vw;
+    margin: 100px auto;
+  }
+}
